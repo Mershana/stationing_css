@@ -1,0 +1,40 @@
+/* 				Относительное позиционирование элементов на CSS
+
+
+Относительное позиционирование задается с помощью значения relative для свойства position. Такое позиционирование позволяет сдвигать элементы относительно своего текущего положения на заданную величину. При этом все остальные элементы страницы будут думать, что элемент стоит там, где и стоял изначально. То есть при таком типе позиционирования элемент не выпадает из нормального потока.
+
+Смещения от текущего положения задаются свойствами top, right, bottom и left. */
+
+
+
+#elem1 {
+	position: relative;
+	top: 80px;
+	left: 40px;
+
+
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+	background-color: #FF8888;
+}
+#elem2 {
+	position: relative;
+	top: 40px;
+	left: 80px;
+
+
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+	background-color: #7E89EB;
+}
+#elem3 {
+	position: relative;
+	left: 160px;
+
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+	background-color: #4DEE99;
+}

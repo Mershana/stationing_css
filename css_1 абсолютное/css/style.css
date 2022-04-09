@@ -1,0 +1,113 @@
+/* 				Абсолютное позиционирование элементов на CSS
+
+
+В данном уроке мы с вами разберем абсолютное позиционирование элементов. Оно позволяет располагать элементы по указанным координатам страницы. Например, можно расположить элемент в позицию 100px сверху страницы и 200px слева. Элемент переместится туда, не взирая на то, что там будут располагаться другие элементы и просто станет поверх их. Говорят, что при этом элемент выпадает из нормального потока документа: все остальные элементы будут вести себя так, будто нашего элемента нет.
+
+Для того, чтобы сделать элемент абсолютно спозиционированным, этому элементу необходимо задать свойство position в значении absolute. Кроме этого свойства, нужны еще два: одно будет задавать координату по вертикали, а второе - по горизонтали.
+
+Для вертикали нужно задать отступ или сверху, или снизу. Отступ сверху задает свойство top, а отступ снизу - свойство bottom. Для горизонтали нужно задать отступ или слева, или справа. Отступ слева задает свойство left, а отступ справа - свойство right. */
+
+
+
+/* body>div{
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	position: absolute;
+}
+
+#elem1{
+	border: 1px solid red;
+	top: 30px;
+	left: 30px;
+}
+
+#elem2{
+	border: 1px solid blue;
+	top: 100px;
+	left: 100px;
+}
+
+#elem3{
+	border: 1px solid green;
+	top: 170px;
+	left: 170px;
+} */
+
+/* body>div{
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	top: 30px;
+	position: absolute;
+}
+
+#elem1{
+border: 1px solid red;
+left: 30px;
+}
+
+#elem2{
+border: 1px solid blue;
+left:100px;
+}
+
+#elem3{
+border: 1px solid green;
+left: 170px;
+} */
+
+
+/* body>div{
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	position: absolute;
+}
+
+#elem1{
+border: 1px solid red;
+top: 30px;
+left: 30px;
+}
+
+#elem2{
+border: 1px solid blue;
+top: 60px;
+left: 60px;
+}
+
+#elem3{
+border: 1px solid green;
+top: 90px;
+left: 90px;
+} */
+
+
+/* body>div{
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	position: absolute;
+}
+
+#elem1{
+border: 1px solid red;
+background-color: red;
+top: 30px;
+left: 30px;
+}
+
+#elem2{
+border: 1px solid blue;
+background-color: blue;
+top: 60px;
+left: 60px;
+}
+
+#elem3{
+border: 1px solid green;
+background-color: green;
+top: 90px;
+left: 90px;
+}  */
