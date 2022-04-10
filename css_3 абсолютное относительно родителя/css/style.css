@@ -1,0 +1,222 @@
+/* 			Позиционирование относительно родителя на CSS
+
+Если элементу задан relative, а его потомку - absolute, то этот потомок будет позиционироваться относительно своего родителя, а не относительно окна браузера.
+
+
+Как правило, в таком случае родителю указывают relative без смещений. В этом случае с этим родителем ничего не происходит, но все его потомки теперь будут позиционироваться относительно него. */
+
+
+
+/* 							Практические задачи */
+/* В следующих задачах основной блок стоит по центру с помощью margin в значении auto, а остальные позиционируются относительно него с помощью свойства position. */
+
+
+
+/* .elem1 {
+	position: relative;
+	width: 500px;
+	height: 400px;
+	margin: 0 auto;
+	border: 1px solid green;
+}
+.elem2 {
+	border: 1px solid red;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+} */
+
+
+				/* 				Задача 2
+				 Повторите страницу по данному образцу */
+
+/* .elem1{
+	position: relative;
+	width: 500px;
+	height: 400px;
+	margin: 0 auto;
+	background-color: green;
+}
+
+.elem2{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+
+	width: 100px;
+	height: 100px;
+	background-color: #fff;
+}
+
+.elem3{
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+
+	width: 100px;
+	height: 100px;
+	background-color: #fff;
+} */
+
+
+						/* Задача 3 */
+						/* Повторите страницу по данному образцу: */
+
+/* .elem{
+	position: relative;
+	width: 110px;
+	height: 250px;
+	margin: auto;
+	border: 1px solid black;
+}
+
+.elem>div{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 30px;
+	left: 30px;
+}
+
+.elem1{
+	top: 40px;
+	background-color: red;
+}
+
+.elem2{
+	top: 100px;
+	background-color: yellow;
+}
+
+.elem3{
+	top: 160px;
+	background-color: green;
+} */
+
+
+
+						/* Задача 4 */
+						/* Повторите страницу по данному образцу: */
+
+
+/* .elem{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	background-color: #4DEE99 ;
+	border-radius: 150px ;
+}
+
+.elem1{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-color: #fff;
+	border-radius: 30px;
+	top: 55px;
+	left: 55px;
+}
+
+.elem2{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-color: #fff;
+	border-radius: 30px;
+	top: 55px;
+	right: 55px;
+}
+
+.elem3{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background-color: #fff;
+	top: 135px;
+	left: 130px;
+}
+
+
+.elem4{
+	position: absolute;
+	width: 120px;
+	height: 10px;
+	background-color: #fff;
+	top: 230px;
+	left: 90px;
+} */
+
+
+						/* Задача 5
+						Повторите страницу по данному образцу: */
+
+
+
+
+.elem{
+	position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #C4CD14;
+    border-radius: 200px;
+}
+
+.elem1{
+	background-color: #fff;
+	position: absolute;
+	right: 80px;
+	top: 70px;
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	z-index: 3;
+}
+
+.elem2{
+	background-color: #fff;
+	position: absolute;
+	left: 80px;
+	top: 70px;
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	z-index: 3;
+}
+
+.elem3{
+	background-color: #fff;
+	position: absolute;
+	left: 165px;
+	top: 200px;
+	width: 70px;
+	height: 70px;
+	z-index: 3;
+	border-radius: 35px;
+}
+
+.elem4{
+	background-color: #fff;
+	position: absolute;
+	left: 100px;
+	top: 155px;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	z-index: 1;
+}
+
+.elem5{
+	background-color: #C4CD14;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    z-index: 2;
+}

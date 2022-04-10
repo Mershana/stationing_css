@@ -1,0 +1,106 @@
+					/* Наложение элементов по оси Z
+В данном уроке мы с вами рассмотрим наложение элементов по оси Z. По умолчанию, если два элемента накладываются друг на друга, то выше будет тот элемент, который идет ниже в HTML коде.
+
+Давайте посмотрим на примере. Пусть у нас есть два элемента, абсолютно спозиционированных так, чтобы накладываться друг на друга. В таком случае выше будет тот элемент, который идет ниже в HTML коде: */
+
+
+/* 	ЗАДАЧА 1
+
+.elem1{
+position: absolute;
+top: 30px;
+left: 30px;
+
+width: 100px;
+height: 100px;
+background: red;
+}
+
+.elem2{
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	z-index: 1;
+
+	width: 100px;
+	height: 100px;
+	background: blue;
+
+}
+
+.elem3{
+	position: absolute;
+	top: 90px;
+	left: 90px;
+
+	width: 100px;
+	height: 100px;
+	background: green;
+} */
+
+
+/* 	ЗАДАЧА 2
+
+.elem1{
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	z-index: 3;
+
+	
+	width: 100px;
+	height: 100px;
+	background: red;
+}
+	
+	.elem2{
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	z-index: 2;
+	
+	width: 100px;
+	height: 100px;
+	background: blue;}
+	
+	.elem3{
+	position: absolute;
+	top: 90px;
+	left: 90px;
+	z-index: 1;
+	
+	width: 100px;
+	height: 100px;
+	background: green;}
+	 */
+
+
+	 .elem1{ задача 3
+		position: absolute;
+		top: 30px;
+		left: 30px;
+	
+		
+		width: 100px;
+		height: 100px;
+		background: red;
+	}
+		
+		.elem2{
+		z-index: -1;
+		position: absolute;
+		top: 60px;
+		left: 60px;
+		
+		width: 100px;
+		height: 100px;
+		background: blue;}
+		
+		.elem3{
+		position: absolute;
+		top: 90px;
+		left: 90px;
+		
+		width: 100px;
+		height: 100px;
+		background: green;}

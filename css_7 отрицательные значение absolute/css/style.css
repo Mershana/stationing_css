@@ -1,0 +1,35 @@
+/* 			Отрицательные значения при позиционировании
+
+
+
+Изученные нами свойства top, right, bottom и left могут принимать не только положительные, но и отрицательные значения. Давайте посмотрим на примерах. */
+
+
+.elem{
+position: relative;
+width: 300px;
+height: 200px;
+border: 1px solid green;
+margin: 20px auto;
+}
+
+.elem1{
+position: absolute;
+top: 0px;
+left: -50px;
+
+
+width: 30px;
+height: 30px;
+border: 1px solid red;
+}
+
+.elem2{
+	position: absolute;
+	top: 0px;
+	right: -50px;
+
+	width: 30px;
+	height: 30px;
+	border: 1px solid red;
+}
